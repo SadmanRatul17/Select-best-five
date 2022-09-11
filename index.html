@@ -214,13 +214,13 @@
                 <div class="card-header text-center">
                   Budget
                 </div>
-                <p>Per Player : <input type="text" name="" id=""></p>
-                <button class="btn btn-primary">Calculate</button>
-                <p>Player Expenses : $ <span>000</span> </p>
-                <p>Manager : <input type="text" name="" id=""></p>
-                <p>Coach : <input type="text" name="" id=""></p>
-                <button class="btn btn-primary">Calculate Total</button>
-                <p> Total : $ <span>000</span> </p>
+                <p>Per Player : <input id="input-player" type="text" name="" id=""></p>
+                <button id="calculate" class="btn btn-primary">Calculate</button>
+                <p>Player Expenses :$<span id="expensese">000</span> </p>
+                <p>Manager :<input id="Manager-price" type="text" name="" id=""></p>
+                <p>Coach :<input id="coach-price" type="text" name="" id=""></p>
+                <button id="cal-total" class="btn btn-primary">Calculate Total</button>
+                <p> Total :$<span id="final-total" >000</span> </p>
               </div>
            
 
@@ -238,7 +238,7 @@
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
     ></script>
-   
+   <script src="js/total.js"></script>
     <script src="js/player.js"></script>
   </body>
 </html>
